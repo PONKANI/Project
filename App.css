@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap'); 
+
+/* .login{
+  border: 2px solid;
+  width: 35vw;
+  height: 60vh;
+ line-height: 40px;
+}
+.h2tag{
+  align-text: center;
+}
+.image{
+  display: flex;
+  padding-left: 150px;
+}
+.facebook{
+  width: 50px;
+  height: 50px;
+}
+.twitter{
+  width: 50px;
+  height: 50px;
+}
+.google{
+  width: 60px;
+  height: 50px;
+  
+} */
+*{
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.icon{
+  margin-top: 20px;
+}
+.login {
+  width: 350px;
+  text-align: center;
+ 
+  width: 35vw;
+  height: 65vh;
+  border: 2px solid;
+}
+
+.h2tag {
+
+  font-size: 25px;
+  color: #333;
+}
+
+
+.login span {
+  display: block;
+  margin-top: 10px;
+  color: #666;
+  font-size: 15px;
+}
+
+.login a {
+  color: #007bff;
+  text-decoration: none;
+  
+  margin-left: 5px;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+
+
+.login input[type='text'],
+.login input[type='password'] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.95rem;
+}
+
+
+
+
+
+.login button {
+  width: 80%;
+  padding: 10px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login button:hover {
+  background-color: blue;
+}
+
+
+.login p {
+  margin: 15px ;
+  color: gray;
+  font-size: 15px;
+}
+
+
+
+
